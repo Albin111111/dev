@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Note Taker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎙️ AI <span>Note Taker</span></h1>
+
+        <button class="record-btn" id="recordBtn"></button>
+        <p class="status" id="status">Tryck för att börja spela in</p>
+
+        <div class="box">
+            <h2>📝 Transkribering</h2>
+            <p id="transcript">Din röst visas här...</p>
+        </div>
+
+        <button class="summarize-btn" id="summarizeBtn" disabled>
+            ✨ Sammanfatta med AI
+        </button>
+
+        <div class="box">
+            <h2>🤖 AI-Sammanfattning</h2>
+            <p id="summary">Sammanfattningen visas här...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
